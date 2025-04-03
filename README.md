@@ -1,12 +1,7 @@
-# React + Vite
+# React Dynamic Quiz
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple quiz app built with **React** and **Vite**.
 
-Currently, two official plugins are available:
+It uses `useReducer` to manage the quiz state (like progress, score, and status), and fetches questions from a local API. The app shows different screens like loading, the quiz itself, and a final score screen.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Great for practicing React component structure and state management.
